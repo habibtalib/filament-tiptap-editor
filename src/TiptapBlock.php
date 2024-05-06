@@ -56,6 +56,7 @@ abstract class TiptapBlock
         if (! $data) {
             $data = [];
         }
+
         return view($this->preview, $data)->render();
     }
 
@@ -64,6 +65,7 @@ abstract class TiptapBlock
         if (! $data) {
             $data = [];
         }
+
         return view($this->rendered, $data)->render();
     }
 
